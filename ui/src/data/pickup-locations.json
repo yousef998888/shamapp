@@ -1,0 +1,58 @@
+{
+  "pickup_locations": [
+    {
+      "id": "1",
+      "name": "24/7 InPost Locker | Shop Pick-up",
+      "price": 2.39,
+      "location": "InPost Shop - Green Street Wine, 85 Green Street, E7 8JP, London",
+      "delivery_time": "At pick-up point in 3-5 business days",
+      "coordinates": [51.5497, -0.0039],
+      "type": "locker"
+    },
+    {
+      "id": "2",
+      "name": "Yodel Store to Store",
+      "price": 2.29,
+      "location": "Green Street Wine, 85 Green Street, E7 8JP, London",
+      "delivery_time": "At pick-up point in 3-5 business days",
+      "coordinates": [51.5497, -0.0039],
+      "type": "store"
+    },
+    {
+      "id": "3",
+      "name": "Evri ParcelShop",
+      "price": 2.29,
+      "location": "Post Office - Green Street, 104 Green Street, Forest Gate, E7 8JT, London",
+      "delivery_time": "At pick-up point in 3-5 business days",
+      "coordinates": [51.5489, -0.0042],
+      "type": "post_office"
+    },
+    {
+      "id": "4",
+      "name": "24/7 InPost Locker | Shop Pick-up",
+      "price": 2.39,
+      "location": "InPost Shop - MRS Food & Wine, 440 Romford Road, E7 8DP, London",
+      "delivery_time": "At pick-up point in 3-5 business days",
+      "coordinates": [51.5512, -0.0018],
+      "type": "locker"
+    },
+    {
+      "id": "5",
+      "name": "DPD Pickup Shop",
+      "price": 2.45,
+      "location": "DPD Shop - Forest Gate Station, 1 Woodgrange Road, E7 0QH, London",
+      "delivery_time": "At pick-up point in 2-4 business days",
+      "coordinates": [51.5492, -0.0021],
+      "type": "shop"
+    },
+    {
+      "id": "6",
+      "name": "Royal Mail Customer Service Point",
+      "price": 2.15,
+      "location": "Royal Mail - Stratford Shopping Centre, 51 The Grove, E15 1EL, London",
+      "delivery_time": "At pick-up point in 3-5 business days",
+      "coordinates": [51.5432, -0.0025],
+      "type": "post_office"
+    }
+  ]
+} 

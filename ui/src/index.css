@@ -1,0 +1,89 @@
+/* Leaflet CSS */
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #242424;
+  --card: #ffffff;
+  --card-foreground: #242424;
+  --popover: #ffffff;
+  --popover-foreground: #242424;
+  --primary: #343434;
+  --primary-foreground: #fbfbfb;
+  --secondary: #f7f7f7;
+  --secondary-foreground: #343434;
+  --muted: #f7f7f7;
+  --muted-foreground: #8e8e8e;
+  --accent: #f7f7f7;
+  --accent-foreground: #343434;
+  --destructive: #e74c3c;
+  --destructive-foreground: #e74c3c;
+  --border: #ebebeb;
+  --input: #ebebeb;
+  --ring: #b5b5b5;
+  --chart-1: #e67e22;
+  --chart-2: #1abc9c;
+  --chart-3: #3498db;
+  --chart-4: #f1c40f;
+  --chart-5: #e67e22;
+  --radius: 0.625rem;
+  --sidebar: #fbfbfb;
+  --sidebar-foreground: #242424;
+  --sidebar-primary: #343434;
+  --sidebar-primary-foreground: #fbfbfb;
+  --sidebar-accent: #f7f7f7;
+  --sidebar-accent-foreground: #343434;
+  --sidebar-border: #ebebeb;
+  --sidebar-ring: #b5b5b5;
+}
+
+.dark {
+  --background: #242424;
+  --foreground: #fbfbfb;
+  --card: #242424;
+  --card-foreground: #fbfbfb;
+  --popover: #242424;
+  --popover-foreground: #fbfbfb;
+  --primary: #fbfbfb;
+  --primary-foreground: #343434;
+  --secondary: #444444;
+  --secondary-foreground: #fbfbfb;
+  --muted: #444444;
+  --muted-foreground: #b5b5b5;
+  --accent: #444444;
+  --accent-foreground: #fbfbfb;
+  --destructive: #c0392b;
+  --destructive-foreground: #e67e22;
+  --border: #444444;
+  --input: #444444;
+  --ring: #707070;
+  --chart-1: #8e44ad;
+  --chart-2: #16a085;
+  --chart-3: #e67e22;
+  --chart-4: #9b59b6;
+  --chart-5: #d35400;
+  --sidebar: #343434;
+  --sidebar-foreground: #fbfbfb;
+  --sidebar-primary: #8e44ad;
+  --sidebar-primary-foreground: #fbfbfb;
+  --sidebar-accent: #444444;
+  --sidebar-accent-foreground: #fbfbfb;
+  --sidebar-border: #444444;
+  --sidebar-ring: #707070;
+}
+
+@layer base {
+  * {
+  }
+  body {
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    direction: rtl;
+  }
+}

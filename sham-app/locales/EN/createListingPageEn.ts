@@ -1,0 +1,155 @@
+export const createListingPageEn = {
+  // Header
+  addNewProduct: 'Add New Product',
+  loadTestData: '🧪 LOAD TEST DATA',
+  
+  // Terms
+  termsNotice: 'Please make sure your product aligns with our',
+  termsLink: 'Terms & Conditions',
+  
+  // Form fields
+  productTitle: 'Product Title *',
+  enterProductTitle: 'Enter product title',
+  arabicTitle: 'Arabic Title *',
+  enterArabicTitle: 'Enter Arabic title',
+  category: 'Category *',
+  selectCategory: 'Select category',
+  condition: 'Condition *',
+  selectCondition: 'Select condition',
+  brandNew: 'Brand New',
+  used: 'Used',
+  refurbished: 'Refurbished',
+  currency: 'Currency *',
+  selectCurrency: 'Select currency',
+  price: 'Price *',
+  location: 'Location *',
+  selectOrAddAddress: 'Select or add an address',
+  itemDetails: 'Item Details',
+  description: 'Description *',
+  describeProduct: 'Describe your product...',
+  arabicDescription: 'Arabic Description *',
+  arabicDescriptionPlaceholder: 'وصف المنتج باللغة العربية...',
+  priceNegotiable: 'Price is negotiable',
+  deliveryOptions: 'Delivery Options',
+  both: 'Both',
+  postageOnly: 'Postage Only',
+  collectionOnly: 'Collection Only',
+  packageSize: 'Package Size',
+  selectPackageSize: 'Select package size',
+  
+  // Package sizes
+  largeLetter: 'Large letter (35×25×2.5 cm)',
+  smallParcel1kg: 'Small parcel – up to 1 kg',
+  smallParcel2kg: 'Small parcel – up to 2 kg',
+  mediumParcel1kg: 'Medium parcel – up to 1 kg',
+  mediumParcel2kg: 'Medium parcel – up to 2 kg',
+  
+  // Buttons
+  cancel: 'Cancel',
+  createListing: 'Create Listing',
+  creating: 'Creating...',
+  
+  // Alerts
+  loginRequired: 'Please log in to create a listing',
+  fillRequiredFields: 'Please fill in all required fields',
+  selectAddress: 'Please select an address',
+  selectDeliveryOption: 'Please select a delivery option',
+  selectPackageSizeAlert: 'Please select a package size',
+  addAtLeastOnePhoto: 'Please add at least one photo',
+  errorCreatingProduct: 'Failed to create product listing. Please try again.',
+  testDataLoaded: 'Test Data Loaded',
+  testDataLoadedMessage: 'Form has been populated with test data for easy testing!',
+  
+  // Selling Fee
+  sellingFee: 'Selling Fee',
+  feeDescription: 'A selling fee will be deducted from your payout after the buyer receives the item.',
+  feeAgreement: 'I agree to pay the selling fee when my item is sold.',
+  feeAgreementRequired: 'Fee Agreement Required',
+  feeAgreementMessage: 'Please agree to the selling fee terms to continue.',
+  noSellingFee: 'No selling fees apply. You will receive the full sale price.',
+  salePrice: 'Sale Price',
+  youWillReceive: 'You Will Receive',
+  commissionBreakdown: 'Commission Breakdown',
+  feeBreakdownPlaceholder: 'Enter a price above to see the commission breakdown',
+  
+  // Variant Manager
+  manageVariants: 'Manage variants',
+  optionTypes: 'Option types',
+  addOption: 'Add option',
+  createOptionTypeHelper: 'Create an option type (e.g. Size) and add the values customers can choose from.',
+  values: 'values',
+  value: 'value',
+  edit: 'Edit',
+  remove: 'Remove',
+  inventoryCombinations: 'Inventory combinations',
+  inventoryCombinationsHelper: 'Once each option type has at least one value, all combinations will appear here so you can set availability and stock.',
+  maxOptionTypes: 'You can add up to {max} option types.',
+  saveVariants: 'Save variants',
+  addOptionType: 'Add option type',
+  editOptionType: 'Edit option type',
+  valueSource: 'Value source',
+  customList: 'Custom list',
+  categoryAttribute: 'Category attribute',
+  optionName: 'Option name',
+  optionNamePlaceholder: 'e.g. Size',
+  attribute: 'Attribute',
+  noCategoryAttributes: 'The selected category has no attributes. Switch back to a custom list.',
+  attributeTerms: '{name} terms',
+  noAttributeTerms: 'This attribute has no predefined terms. Add custom values below.',
+  valuesLabel: 'Values',
+  addValuePlaceholder: 'Add a value (e.g. Red)',
+  add: 'Add',
+  valuesHelper: 'Added values will appear here. You can remove them at any time.',
+  saveOption: 'Save option',
+  more: 'more',
+  noCategoryAttributesAlert: 'No category attributes',
+  noCategoryAttributesMessage: 'Select a category with attributes before using this option type.',
+  duplicateValue: 'Duplicate value',
+  duplicateValueMessage: 'This value has already been added.',
+  nameRequired: 'Name required',
+  nameRequiredMessage: 'Enter a name for this option type.',
+  attributeRequired: 'Attribute required',
+  attributeRequiredMessage: 'Choose an attribute to pull terms from.',
+  addValues: 'Add values',
+  addValuesMessage: 'Add at least one value for this option type.',
+  
+  // Variant Section
+  variants: 'Variants',
+  variantsDescription: 'Offer different options (like size or colour) and track stock for each combination.',
+  variantsDisabledHelper: 'Keep variants off to rely on the quantity field above, or enable variants to manage stock per option (e.g. Size or Colour).',
+  noVariantsConfigured: 'No variants configured yet. Add option types to get started.',
+  optionTypesLabel: 'Option types',
+  optionValuesLabel: 'Option values',
+  activeCombinationsLabel: 'Active combinations',
+  untitledOption: 'Untitled option',
+  addVariants: 'Add variants',
+  manageVariantsButton: 'Manage variants',
+  
+  // Quantity
+  availableQuantity: 'Available Quantity *',
+  quantityPlaceholder: 'e.g. 5',
+  quantityManagedPerVariant: 'Quantity is managed per variant when variants are enabled.',
+  quantityHint: 'Buyers will see this many items in stock. Minimum 1.',
+  
+  // Price
+  price: 'Price *',
+  
+  // Address
+  selectOrAddAddress: 'Select or add an address',
+  
+  // Verification
+  verifyIdentityTitle: 'Verify your identity to list items',
+  
+  // Alerts
+  invalidQuantity: 'Invalid quantity',
+  invalidQuantityMessage: 'Please enter a quantity of at least 1.',
+  variantsIncomplete: 'Variants incomplete',
+  variantsIncompleteAddOptions: 'Add at least one option name with values. If you are using category attributes, choose an attribute and select or add at least one term.',
+  variantsIncompleteEnableCombinations: 'Enable at least one variant combination to sell.',
+  variantsIncompleteStock: 'Please enter stock of at least 1 for every enabled variant combination.',
+  variantsIncompleteAddGroup: 'Add at least one option group.',
+  variantsIncompleteBuildError: 'Unable to build variant combinations. Please review option values.',
+  testDataLoaded: 'Test Data Loaded',
+  testDataLoadedMessage: 'Form has been populated with test data for easy testing!',
+};
+

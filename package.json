@@ -1,0 +1,19 @@
+{
+  "name": "syria-marketplace-monorepo",
+  "version": "1.0.0",
+  "description": "The monorepo for the Syria Marketplace UI and Admin projects.",
+  "private": true,
+  "scripts": {
+    "install:all": "(cd ui && npm install) && (cd admin && npm install) && (cd server && npm install)",
+    "dev:ui": "cd ui && npm run dev",
+    "dev:admin": "cd admin && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "db:apply-migrations": "./database/scripts/apply-migrations.sh",
+    "db:create-migration": "./database/scripts/create-migration.sh"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^12.23.12"
+  }
+}

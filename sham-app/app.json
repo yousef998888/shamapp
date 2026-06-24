@@ -1,0 +1,130 @@
+{
+  "expo": {
+    "name": "sham-app",
+    "slug": "sham-app",
+    "owner": "anhar94",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "shamapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "simulator": "iPhone 16",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to camera to take photos for product listings.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select images for product listings.",
+        "CFBundleLocalizations": [
+          "en",
+          "ar"
+        ]
+      },
+      "usesPushNotifications": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "supportsRtl": true,
+      "package": "com.sy.souqna"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-sqlite",
+      "expo-maps",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you select images for product listings.",
+          "cameraPermission": "The app accesses your camera to let you take photos for product listings."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "The app accesses your camera to let you take photos for product listings and verification."
+        }
+      ],
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": [
+              "en",
+              "ar"
+            ],
+            "android": [
+              "en",
+              "ar"
+            ]
+          }
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#ffffff",
+          "sounds": []
+        }
+      ],
+      [
+        "expo-asset",
+        {
+          "assets": [
+            "./assets/images/mens.png",
+            "./assets/images/women.png",
+            "./assets/images/jwellery.png",
+            "./assets/images/health.png",
+            "./assets/images/perfume.png",
+            "./assets/images/electronics.png",
+            "./assets/images/furniture.png",
+            "./assets/images/home.png",
+            "./assets/images/appreal.png"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eeba02ad-3b3f-4fc5-8fbc-72ab77d751d0"
+      },
+      "router": {}
+    }
+  }
+}

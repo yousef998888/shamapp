@@ -1,0 +1,36 @@
+export const authPagesAr = {
+  // Login page
+  loginTitle: 'تسجيل الدخول إلى cognicart',
+  email: 'البريد الإلكتروني',
+  enterEmail: 'أدخل بريدك الإلكتروني',
+  validEmailHelper: 'أدخل عنوان بريد إلكتروني صالح',
+  password: 'كلمة المرور',
+  enterPassword: 'أدخل كلمة المرور',
+  passwordRequired: 'كلمة المرور مطلوبة',
+  rememberMe: 'تذكرني',
+  error: 'خطأ',
+  signingIn: 'جاري تسجيل الدخول...',
+  signIn: 'تسجيل الدخول',
+  createAccount: 'إنشاء حساب',
+  or: 'أو',
+  continueWithGoogle: 'متابعة مع Google',
+  dontHaveAccount: 'ليس لديك حساب؟ سجل الآن',
+  fix: 'إصلاح',
+  fillAllFields: 'يرجى ملء جميع الحقول',
+  
+  // Signup page
+  signupTitle: 'إنشاء حساب',
+  signupSubtitle: 'انضم إلى cognicart اليوم',
+  createPassword: 'أنشئ كلمة مرور',
+  confirmPassword: 'تأكيد كلمة المرور',
+  confirmYourPassword: 'أكد كلمة المرور الخاصة بك',
+  agreeToTerms: 'أوافق على',
+  termsOfService: 'شروط الخدمة',
+  and: 'و',
+  privacyPolicy: 'سياسة الخصوصية',
+  creatingAccount: 'جاري إنشاء الحساب...',
+  alreadyHaveAccount: 'لديك حساب بالفعل؟ سجل الدخول',
+  passwordsDoNotMatch: 'كلمتا المرور غير متطابقتين',
+  agreeToTermsError: 'يرجى الموافقة على الشروط والأحكام',
+};
+

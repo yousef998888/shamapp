@@ -1,0 +1,565 @@
+{
+  "version": "2025-08-unstable",
+  "verticals": [
+    {
+      "name": "Apparel & Accessories",
+      "prefix": "aa",
+      "categories": [
+        {
+          "id": "gid://shopify/TaxonomyCategory/aa",
+          "level": 0,
+          "name": "Apparel & Accessories",
+          "full_name": "Apparel & Accessories",
+          "parent_id": null,
+          "attributes": [
+            {
+              "id": "gid://shopify/TaxonomyAttribute/1",
+              "name": "Color",
+              "handle": "color",
+              "description": "Defines the primary color or pattern, such as blue or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/3",
+              "name": "Pattern",
+              "handle": "pattern",
+              "description": "Describes the design or motif of a product, such as floral or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/837",
+              "name": "Target gender",
+              "handle": "target-gender",
+              "description": "Identifies the intended gender for a product, such as female, male or unisex",
+              "extended": false
+            }
+          ],
+          "children": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa-1",
+              "name": "Clothing"
+            },
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa-2",
+              "name": "Clothing Accessories"
+            }
+          ],
+          "ancestors": []
+        },
+        {
+          "id": "gid://shopify/TaxonomyCategory/aa-1",
+          "level": 1,
+          "name": "Clothing",
+          "full_name": "Apparel & Accessories > Clothing",
+          "parent_id": "gid://shopify/TaxonomyCategory/aa",
+          "attributes": [
+            {
+              "id": "gid://shopify/TaxonomyAttribute/1",
+              "name": "Color",
+              "handle": "color",
+              "description": "Defines the primary color or pattern, such as blue or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/2777",
+              "name": "Fabric",
+              "handle": "fabric",
+              "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/3",
+              "name": "Pattern",
+              "handle": "pattern",
+              "description": "Describes the design or motif of a product, such as floral or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/837",
+              "name": "Target gender",
+              "handle": "target-gender",
+              "description": "Identifies the intended gender for a product, such as female, male or unisex",
+              "extended": false
+            }
+          ],
+          "children": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa-1-1",
+              "name": "Activewear"
+            },
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa-1-2",
+              "name": "Baby & Toddler Clothing"
+            }
+          ],
+          "ancestors": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa",
+              "name": "Apparel & Accessories"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/TaxonomyCategory/aa-1-1",
+          "level": 2,
+          "name": "Activewear",
+          "full_name": "Apparel & Accessories > Clothing > Activewear",
+          "parent_id": "gid://shopify/TaxonomyCategory/aa-1",
+          "attributes": [
+            {
+              "id": "gid://shopify/TaxonomyAttribute/2995",
+              "name": "Activewear clothing features",
+              "handle": "activewear-clothing-features",
+              "description": "Identifies unique characteristics of activewear, such as four-way stretch or breathable design",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/5",
+              "name": "Activity",
+              "handle": "activity",
+              "description": "Specifies the sport or activity the product is designed for, such as tennis or pilates",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/1",
+              "name": "Color",
+              "handle": "color",
+              "description": "Defines the primary color or pattern, such as blue or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/2777",
+              "name": "Fabric",
+              "handle": "fabric",
+              "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/3",
+              "name": "Pattern",
+              "handle": "pattern",
+              "description": "Describes the design or motif of a product, such as floral or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/2778",
+              "name": "Size",
+              "handle": "size",
+              "description": "Used to specify the size of a product, such as 0-3 months or Extra large (XL)",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/837",
+              "name": "Target gender",
+              "handle": "target-gender",
+              "description": "Identifies the intended gender for a product, such as female, male or unisex",
+              "extended": false
+            }
+          ],
+          "children": [],
+          "ancestors": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa-1",
+              "name": "Clothing"
+            },
+            {
+              "id": "gid://shopify/TaxonomyCategory/aa",
+              "name": "Apparel & Accessories"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "prefix": "el",
+      "categories": [
+        {
+          "id": "gid://shopify/TaxonomyCategory/el",
+          "level": 0,
+          "name": "Electronics",
+          "full_name": "Electronics",
+          "parent_id": null,
+          "attributes": [
+            {
+              "id": "gid://shopify/TaxonomyAttribute/1",
+              "name": "Color",
+              "handle": "color",
+              "description": "Defines the primary color or pattern, such as blue or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/3",
+              "name": "Pattern",
+              "handle": "pattern",
+              "description": "Describes the design or motif of a product, such as floral or striped",
+              "extended": false
+            }
+          ],
+          "children": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/el-1",
+              "name": "Arcade Equipment"
+            },
+            {
+              "id": "gid://shopify/TaxonomyCategory/el-2",
+              "name": "Audio"
+            }
+          ],
+          "ancestors": []
+        },
+        {
+          "id": "gid://shopify/TaxonomyCategory/el-1",
+          "level": 1,
+          "name": "Arcade Equipment",
+          "full_name": "Electronics > Arcade Equipment",
+          "parent_id": "gid://shopify/TaxonomyCategory/el",
+          "attributes": [
+            {
+              "id": "gid://shopify/TaxonomyAttribute/1",
+              "name": "Color",
+              "handle": "color",
+              "description": "Defines the primary color or pattern, such as blue or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/3",
+              "name": "Pattern",
+              "handle": "pattern",
+              "description": "Describes the design or motif of a product, such as floral or striped",
+              "extended": false
+            },
+            {
+              "id": "gid://shopify/TaxonomyAttribute/134",
+              "name": "Theme",
+              "handle": "theme",
+              "description": "Describes the product's primary theme or motif, such as sport, space, or holidays",
+              "extended": false
+            }
+          ],
+          "children": [],
+          "ancestors": [
+            {
+              "id": "gid://shopify/TaxonomyCategory/el",
+              "name": "Electronics"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3",
+      "name": "Pattern",
+      "handle": "pattern",
+      "description": "Describes the design or motif of a product, such as floral or striped",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/24477",
+          "name": "Abstract",
+          "handle": "pattern__abstract"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/24478",
+          "name": "Animal",
+          "handle": "pattern__animal"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/24479",
+          "name": "Art",
+          "handle": "pattern__art"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2871",
+          "name": "Floral",
+          "handle": "pattern__floral"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/1868",
+          "name": "Geometric",
+          "handle": "pattern__geometric"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2874",
+          "name": "Solid",
+          "handle": "pattern__solid"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2875",
+          "name": "Striped",
+          "handle": "pattern__striped"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1",
+      "name": "Color",
+      "handle": "color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/6",
+          "name": "Beige",
+          "handle": "color__beige"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/1",
+          "name": "Black",
+          "handle": "color__black"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2",
+          "name": "Blue",
+          "handle": "color__blue"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/7",
+          "name": "Brown",
+          "handle": "color__brown"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/17",
+          "name": "Clear",
+          "handle": "color__clear"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/4",
+          "name": "Gold",
+          "handle": "color__gold"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/8",
+          "name": "Gray",
+          "handle": "color__gray"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/9",
+          "name": "Green",
+          "handle": "color__green"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2865",
+          "name": "Multicolor",
+          "handle": "color__multicolor"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/15",
+          "name": "Navy",
+          "handle": "color__navy"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/10",
+          "name": "Orange",
+          "handle": "color__orange"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/11",
+          "name": "Pink",
+          "handle": "color__pink"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/12",
+          "name": "Purple",
+          "handle": "color__purple"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/13",
+          "name": "Red",
+          "handle": "color__red"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/3",
+          "name": "White",
+          "handle": "color__white"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/14",
+          "name": "Yellow",
+          "handle": "color__yellow"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/837",
+      "name": "Target gender",
+      "handle": "target-gender",
+      "description": "Identifies the intended gender for a product, such as female, male or unisex",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/18",
+          "name": "Female",
+          "handle": "target-gender__female"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/19",
+          "name": "Male",
+          "handle": "target-gender__male"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/20",
+          "name": "Unisex",
+          "handle": "target-gender__unisex"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2777",
+      "name": "Fabric",
+      "handle": "fabric",
+      "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/1001",
+          "name": "Cotton",
+          "handle": "fabric__cotton"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/1002",
+          "name": "Denim",
+          "handle": "fabric__denim"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/1003",
+          "name": "Polyester",
+          "handle": "fabric__polyester"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/1004",
+          "name": "Wool",
+          "handle": "fabric__wool"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2778",
+      "name": "Size",
+      "handle": "size",
+      "description": "Used to specify the size of a product, such as 0-3 months or Extra large (XL)",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/2001",
+          "name": "XS",
+          "handle": "size__xs"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2002",
+          "name": "S",
+          "handle": "size__s"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2003",
+          "name": "M",
+          "handle": "size__m"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2004",
+          "name": "L",
+          "handle": "size__l"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2005",
+          "name": "XL",
+          "handle": "size__xl"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/2006",
+          "name": "XXL",
+          "handle": "size__xxl"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5",
+      "name": "Activity",
+      "handle": "activity",
+      "description": "Specifies the sport or activity the product is designed for, such as tennis or pilates",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/3001",
+          "name": "Running",
+          "handle": "activity__running"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/3002",
+          "name": "Yoga",
+          "handle": "activity__yoga"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/3003",
+          "name": "Gym",
+          "handle": "activity__gym"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/3004",
+          "name": "Swimming",
+          "handle": "activity__swimming"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2995",
+      "name": "Activewear clothing features",
+      "handle": "activewear-clothing-features",
+      "description": "Identifies unique characteristics of activewear, such as four-way stretch or breathable design",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/4001",
+          "name": "Four-way stretch",
+          "handle": "activewear-clothing-features__four-way-stretch"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/4002",
+          "name": "Breathable",
+          "handle": "activewear-clothing-features__breathable"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/4003",
+          "name": "Moisture-wicking",
+          "handle": "activewear-clothing-features__moisture-wicking"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/4004",
+          "name": "Quick-dry",
+          "handle": "activewear-clothing-features__quick-dry"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/134",
+      "name": "Theme",
+      "handle": "theme",
+      "description": "Describes the product's primary theme or motif, such as sport, space, or holidays",
+      "extended_attributes": [],
+      "values": [
+        {
+          "id": "gid://shopify/TaxonomyValue/5001",
+          "name": "Sport",
+          "handle": "theme__sport"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/5002",
+          "name": "Space",
+          "handle": "theme__space"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/5003",
+          "name": "Holidays",
+          "handle": "theme__holidays"
+        },
+        {
+          "id": "gid://shopify/TaxonomyValue/5004",
+          "name": "Nature",
+          "handle": "theme__nature"
+        }
+      ]
+    }
+  ]
+} 

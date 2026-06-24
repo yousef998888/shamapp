@@ -1,0 +1,240 @@
+[33mcommit 15ffd6e8084d21edb0b799f8fafdb3fd7367d894[m[33m ([m[1;31morigin/fix/verfiy_button[m[33m, [m[1;32mfix/verfiy_button[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Wed Dec 17 23:18:47 2025 +0300
+
+     FloatingTabBar
+
+[33mcommit 3d34dfe45093357c569b0f77a633c1daa2f7c89a[m
+Merge: d7d81b0 fcbfc86
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Tue Dec 16 20:32:44 2025 +0300
+
+    Merge branch 'fix/verfiy_button' of github.com:anhar-uddin/sham-shop into fix/verfiy_button
+
+[33mcommit d7d81b03ddf7088f980a275f06a193e95e0193ab[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Tue Dec 16 20:31:39 2025 +0300
+
+    fix signInWithEmailMutationFn
+
+[33mcommit fcbfc86ee51340807b4e58331d6206016d3783f1[m
+Author: Anhar <anhar@Anhars-MacBook-Pro.local>
+Date:   Tue Dec 16 05:53:00 2025 -0800
+
+    fixes
+
+[33mcommit 942c5d843cbe7843534553ed8fad922db4dea338[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Mon Dec 15 18:57:06 2025 +0300
+
+    mm
+
+[33mcommit 0799d1c75cb00ff10d54b1f44b25e687b051f00a[m
+Merge: ac825e8 fc50478
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Mon Dec 15 18:56:50 2025 +0300
+
+    Merge branch 'dev' of github.com:anhar-uddin/sham-shop into fix/verfiy_button
+
+[33mcommit ac825e897e9afac77d3b6fb2a803292189396efd[m[33m ([m[1;32mfeature/forgo_password[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Mon Dec 15 18:41:03 2025 +0300
+
+    fix taking photo in android deviece
+
+[33mcommit fc50478d5efeb2d512945e45dae72646d32fffb4[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Anhar <anhar@Anhars-MacBook-Pro.local>
+Date:   Mon Nov 24 10:22:35 2025 -0800
+
+    log server
+
+[33mcommit 7b73d698ed67ea36d41c0fe01a68a9373806d4b9[m
+Author: Anhar <anhar@Anhars-MacBook-Pro.local>
+Date:   Mon Nov 24 09:48:55 2025 -0800
+
+    some changes and logs server
+
+[33mcommit 5c49257d5c37e13334350183ea9441bd7b399114[m
+Author: Anhar Uddin <anharhussain94@gmail.com>
+Date:   Sat Nov 22 01:05:23 2025 +0000
+
+    stuff
+
+[33mcommit 17defe56730bbfed16f1619614036a7ea0a8c3a1[m
+Merge: cc21ef1 b4a4a5d
+Author: anhar-uddin <anharhussain94@gmail.com>
+Date:   Tue Nov 18 01:20:45 2025 +0000
+
+    Merge pull request #58 from anhar-uddin/feature/wishlist-favorites-system
+    
+    App: Fix verification x button
+
+[33mcommit cc21ef1045157488f1fdff0f6990446c82b58771[m
+Merge: 846d906 65c26b8
+Author: Anhar Uddin <anharhussain94@gmail.com>
+Date:   Tue Nov 18 00:44:04 2025 +0000
+
+    Merge branch 'main' into dev
+
+[33mcommit 02916edd85bf84b5656e0d682d89f50a316e242e[m[33m ([m[1;31morigin/feature/forgo_password[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Mon Nov 17 21:50:53 2025 +0300
+
+    fix some translations
+
+[33mcommit ef182a07e5101e8e539594d3736f9da1cb1cf172[m[33m ([m[1;32mfeature/wishlist-favorites-system[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Mon Nov 17 21:05:59 2025 +0300
+
+    fix some translate pages and some styles and add reset password pages on our app
+
+[33mcommit b4a4a5d9e71f69c75cc9b8cd30369dd32296e35e[m[33m ([m[1;31morigin/feature/wishlist-favorites-system[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sun Nov 16 18:41:33 2025 +0300
+
+    App: Fix verification x button
+
+[33mcommit 846d906c4414a9187b7bcd76ef2fa7563d3e867c[m
+Merge: 9a5c725 f571c8f
+Author: anhar-uddin <anharhussain94@gmail.com>
+Date:   Sat Nov 15 20:00:44 2025 +0000
+
+    Merge pull request #53 from anhar-uddin/feature/wishlist-favorites-system
+    
+    Feature/wishlist favorites system
+
+[33mcommit f571c8f5678179390ea7c4bbc507e504a6c9ee31[m[33m ([m[1;32mmoatasem_dev_app[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sat Nov 15 21:48:38 2025 +0300
+
+    wishlist-favorites-system
+
+[33mcommit 65c26b8a8b48090305e172431738de37c5cd8d40[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 8ed5b56 054234b
+Author: anhar-uddin <anharhussain94@gmail.com>
+Date:   Sat Nov 15 17:26:49 2025 +0000
+
+    Merge pull request #52 from anhar-uddin/commission
+    
+    Commission
+
+[33mcommit 054234b350e1cf77f26e7204208a8ee4753e62e9[m[33m ([m[1;31morigin/commission[m[33m)[m
+Author: Anhar Uddin <anharhussain94@gmail.com>
+Date:   Sat Nov 15 17:24:36 2025 +0000
+
+    commision and other tickets
+
+[33mcommit a1edb2b0bf703ae964cf15927f3dd0ba3219c52d[m
+Author: Anhar Uddin <anharhussain94@gmail.com>
+Date:   Sat Nov 15 16:16:24 2025 +0000
+
+    fix things
+
+[33mcommit a0876158c114bc199854157b985b99bb40124b0d[m[33m ([m[1;31morigin/moatasem_dev_app[m[33m)[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sun Nov 9 22:38:43 2025 +0300
+
+    location picker and address picker translation and revert all change on selling page 2
+
+[33mcommit 6dfbc4c84866121248ae669b58c8f962c82fa81b[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sun Nov 9 22:38:00 2025 +0300
+
+    location picker and address picker translation and revert all change on selling page
+
+[33mcommit 986b7ddf6af7ad461b91148101343894c92099dd[m
+Author: Anhar Uddin <anhar@travelumrah.co.uk>
+Date:   Sun Nov 9 00:57:35 2025 +0000
+
+    commisson
+
+[33mcommit c366cead4239bda3c8dc17ac134384b97d112c7c[m[33m ([m[1;32m2025-11-09-pr8o-tKjym[m[33m, [m[1;32m2025-11-09-4kyb-pjZG0[m[33m)[m
+Merge: ecd0ec2 01c09d7
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sat Nov 8 20:13:30 2025 +0300
+
+    Merge branch 'moatasem_dev_app' of github.com:anhar-uddin/sham-shop into moatasem_dev_app
+
+[33mcommit ecd0ec2504eb63d2b903e8be477bdd2e3ad09a92[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Sat Nov 8 20:12:01 2025 +0300
+
+    fix selling page and translate help center
+
+[33mcommit 01c09d7e466dd3c8e3b99fb6ab0ee68b99a4927f[m
+Author: Moatasem mdaraty <106908036+moatasem1234@users.noreply.github.com>
+Date:   Sat Nov 8 20:03:10 2025 +0300
+
+    Delete supabase/config.toml
+
+[33mcommit 880c1cdfd03bb411f92770816fe5ecf0dc006175[m
+Author: Moatasem mdaraty <106908036+moatasem1234@users.noreply.github.com>
+Date:   Sat Nov 8 20:02:19 2025 +0300
+
+    Delete sham-app/test-supabase.js
+
+[33mcommit 6260b531ef11ff7f5e5853ef370491931acce91d[m
+Author: Moatasem mdaraty <106908036+moatasem1234@users.noreply.github.com>
+Date:   Sat Nov 8 20:00:38 2025 +0300
+
+    Delete sham-app/SUPABASE_CONNECTION_TEST.md
+
+[33mcommit 1a622e51bdde3010acf462bf3415003eccc40a9a[m
+Author: Moatasem mdaraty <106908036+moatasem1234@users.noreply.github.com>
+Date:   Sat Nov 8 19:59:27 2025 +0300
+
+    Delete sham-app/I18N_USAGE.md
+
+[33mcommit 5a062baa607490825d5b64701e3e99a0fc128921[m
+Author: Moatasem mdaraty <106908036+moatasem1234@users.noreply.github.com>
+Date:   Sat Nov 8 19:59:03 2025 +0300
+
+    Delete sham-app/test-supabase-connection.tsx
+
+[33mcommit 72f230cc3c2355149360d1f85b2571e80232e215[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Fri Nov 7 19:12:47 2025 +0300
+
+    fix after mege conflict
+
+[33mcommit 2318eba30472f89b67787f6988fd1abd3468616f[m
+Merge: 7ad6d7a 9a5c725
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Fri Nov 7 19:10:23 2025 +0300
+
+    Merge branch 'dev' of github.com:anhar-uddin/sham-shop into moatasem_dev_app
+
+[33mcommit 7ad6d7a125676b850c5c8e14e3b48dcb2519e663[m
+Author: moatasem1234 <matsmbllah1234@gmail.com>
+Date:   Fri Nov 7 18:57:23 2025 +0300
+
+    App: Fix all headers and modals accross the app
+
+[33mcommit e47be4c0deafff53b69413dcca492a5275d1d441[m[33m ([m[1;31morigin/seed-fixes[m[33m)[m
+Author: Anhar Uddin <anhar@travelumrah.co.uk>
+Date:   Wed Nov 5 02:06:45 2025 +0000
+
+    Super admin
+
+[33mcommit fc83c09cb0b65e1b2ee8909d7da32aadd914b52e[m
+Author: Anhar Uddin <anhar@travelumrah.co.uk>
+Date:   Wed Nov 5 00:14:41 2025 +0000
+
+    fix error
+
+[33mcommit 9a5c725384a5bc4773a4230792b3656140b5afaa[m
+Merge: 4d547ec 0973305
+Author: anhar-uddin <anharhussain94@gmail.com>
+Date:   Tue Nov 4 01:12:21 2025 +0000
+
+    Merge pull request #48 from anhar-uddin/seed-fixes
+    
+    Seed fixes
+
+[33mcommit 0973305b32a2c63c77893de7ccba165072ee06cb[m
+Author: Anhar Uddin <anhar@travelumrah.co.uk>
+Date:   Tue Nov 4 01:11:09 2025 +0000
+
+    hide animation for now
+
+[33mcommit 80d5b70c3d74c4786bff18cc125e14c8d83ea7f0[m

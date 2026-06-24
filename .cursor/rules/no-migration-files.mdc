@@ -1,0 +1,15 @@
+---
+alwaysApply: true
+description: Prevents automatic creation of migration files and instructs users to use Supabase
+---
+
+# Migration Files Rule
+
+**DO NOT** create or modify Supabase migration files automatically. 
+
+If database schema changes are needed:
+1. Tell the user they must use Supabase CLI or Supabase Dashboard to create migrations
+2. Direct them to run: `supabase migration new <migration_name>`
+3. Or use the Supabase Dashboard to create migrations through the web interface
+
+Migration files should only be created manually by developers using proper Supabase tooling, not through automated code generation.

@@ -1,0 +1,36 @@
+export const authPagesEn = {
+  // Login page
+  loginTitle: 'Sign In to cognicart',
+  email: 'Email',
+  enterEmail: 'Enter your email',
+  validEmailHelper: 'Enter a valid email address',
+  password: 'Password',
+  enterPassword: 'Enter your password',
+  passwordRequired: 'Password is required',
+  rememberMe: 'Remember me',
+  error: 'Error',
+  signingIn: 'Signing In...',
+  signIn: 'Sign In',
+  createAccount: 'Create Account',
+  or: 'OR',
+  continueWithGoogle: 'Continue with Google',
+  dontHaveAccount: 'Don\'t have an account? Sign Up',
+  fix: 'Fix',
+  fillAllFields: 'Please fill in all fields',
+  
+  // Signup page
+  signupTitle: 'Create Account',
+  signupSubtitle: 'Join cognicart today',
+  createPassword: 'Create a password',
+  confirmPassword: 'Confirm Password',
+  confirmYourPassword: 'Confirm your password',
+  agreeToTerms: 'I agree to the',
+  termsOfService: 'Terms of Service',
+  and: 'and',
+  privacyPolicy: 'Privacy Policy',
+  creatingAccount: 'Creating Account...',
+  alreadyHaveAccount: 'Already have an account? Sign In',
+  passwordsDoNotMatch: 'Passwords do not match',
+  agreeToTermsError: 'Please agree to the terms and conditions',
+};
+

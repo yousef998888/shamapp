@@ -1,0 +1,1659 @@
+{
+    "version": "2025-11-syria-v2",
+    "verticals": [
+      {
+        "name": "Apparel & Accessories",
+        "prefix": "aa",
+        "categories": [
+          {
+            "id": "100",
+            "level": 0,
+            "name": "Apparel & Accessories",
+            "full_name": "Apparel & Accessories",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "2",
+                "name": "Pattern",
+                "handle": "pattern",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "101",
+                "name": "Clothing"
+              },
+              {
+                "id": "102",
+                "name": "Clothing Accessories"
+              },
+              {
+                "id": "103",
+                "name": "Bags & Luggage"
+              },
+              {
+                "id": "104",
+                "name": "Headwear"
+              },
+              {
+                "id": "105",
+                "name": "Hosiery & Socks"
+              }
+            ],
+            "ancestors": []
+          },
+          {
+            "id": "101",
+            "level": 1,
+            "name": "Clothing",
+            "full_name": "Apparel & Accessories > Clothing",
+            "parent_id": "100",
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "4",
+                "name": "Fabric",
+                "handle": "fabric",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "2",
+                "name": "Pattern",
+                "handle": "pattern",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "5",
+                "name": "Size",
+                "handle": "size",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "111",
+                "name": "Activewear"
+              },
+              {
+                "id": "112",
+                "name": "Tops"
+              },
+              {
+                "id": "113",
+                "name": "Dresses & Skirts"
+              },
+              {
+                "id": "114",
+                "name": "Trousers & Leggings"
+              },
+              {
+                "id": "115",
+                "name": "Outerwear"
+              },
+              {
+                "id": "116",
+                "name": "Sleepwear & Loungewear"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "100",
+                "name": "Apparel & Accessories"
+              }
+            ]
+          },
+          {
+            "id": "111",
+            "level": 2,
+            "name": "Activewear",
+            "full_name": "Apparel & Accessories > Clothing > Activewear",
+            "parent_id": "101",
+            "attributes": [
+              {
+                "id": "6",
+                "name": "Activewear clothing features",
+                "handle": "activewear-clothing-features",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "7",
+                "name": "Activity",
+                "handle": "activity",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "4",
+                "name": "Fabric",
+                "handle": "fabric",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "2",
+                "name": "Pattern",
+                "handle": "pattern",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "5",
+                "name": "Size",
+                "handle": "size",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [],
+            "ancestors": [
+              {
+                "id": "101",
+                "name": "Clothing"
+              },
+              {
+                "id": "100",
+                "name": "Apparel & Accessories"
+              }
+            ]
+          },
+          {
+            "id": "112",
+            "level": 2,
+            "name": "Tops",
+            "full_name": "Apparel & Accessories > Clothing > Tops",
+            "parent_id": "101",
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "4",
+                "name": "Fabric",
+                "handle": "fabric",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "2",
+                "name": "Pattern",
+                "handle": "pattern",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "5",
+                "name": "Size",
+                "handle": "size",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [],
+            "ancestors": [
+              {
+                "id": "101",
+                "name": "Clothing"
+              },
+              {
+                "id": "100",
+                "name": "Apparel & Accessories"
+              }
+            ]
+          },
+          {
+            "id": "102",
+            "level": 1,
+            "name": "Clothing Accessories",
+            "full_name": "Apparel & Accessories > Clothing Accessories",
+            "parent_id": "100",
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "2",
+                "name": "Pattern",
+                "handle": "pattern",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "121",
+                "name": "Belts"
+              },
+              {
+                "id": "122",
+                "name": "Scarves & Shawls"
+              },
+              {
+                "id": "123",
+                "name": "Gloves"
+              },
+              {
+                "id": "124",
+                "name": "Wallets"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "100",
+                "name": "Apparel & Accessories"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Footwear",
+        "prefix": "fw",
+        "categories": [
+          {
+            "id": "200",
+            "level": 0,
+            "name": "Footwear",
+            "full_name": "Footwear",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "8",
+                "name": "Shoe size",
+                "handle": "shoe-size",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "201",
+                "name": "Women's Shoes"
+              },
+              {
+                "id": "202",
+                "name": "Men's Shoes"
+              },
+              {
+                "id": "203",
+                "name": "Kids' Shoes"
+              },
+              {
+                "id": "204",
+                "name": "Sports Shoes"
+              },
+              {
+                "id": "205",
+                "name": "Sandals & Slippers"
+              },
+              {
+                "id": "206",
+                "name": "Boots"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Modest & Traditional Clothing",
+        "prefix": "mt",
+        "categories": [
+          {
+            "id": "300",
+            "level": 0,
+            "name": "Modest & Traditional Clothing",
+            "full_name": "Modest & Traditional Clothing",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "4",
+                "name": "Fabric",
+                "handle": "fabric",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "5",
+                "name": "Size",
+                "handle": "size",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "301",
+                "name": "Abayas & Jilbabs"
+              },
+              {
+                "id": "302",
+                "name": "Hijabs & Scarves"
+              },
+              {
+                "id": "303",
+                "name": "Prayer Clothing"
+              },
+              {
+                "id": "304",
+                "name": "Men's Thobes"
+              },
+              {
+                "id": "305",
+                "name": "Traditional Levantine Wear"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Beauty & Personal Care",
+        "prefix": "bp",
+        "categories": [
+          {
+            "id": "400",
+            "level": 0,
+            "name": "Beauty & Personal Care",
+            "full_name": "Beauty & Personal Care",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "3",
+                "name": "Target gender",
+                "handle": "target-gender",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "401",
+                "name": "Skincare"
+              },
+              {
+                "id": "402",
+                "name": "Haircare"
+              },
+              {
+                "id": "403",
+                "name": "Makeup"
+              },
+              {
+                "id": "404",
+                "name": "Bath & Body"
+              },
+              {
+                "id": "405",
+                "name": "Men's Grooming"
+              },
+              {
+                "id": "406",
+                "name": "Beauty Tools & Accessories"
+              },
+              {
+                "id": "407",
+                "name": "Fragrances & Oud"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Electronics",
+        "prefix": "el",
+        "categories": [
+          {
+            "id": "500",
+            "level": 0,
+            "name": "Electronics",
+            "full_name": "Electronics",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "501",
+                "name": "TV & Video"
+              },
+              {
+                "id": "502",
+                "name": "Audio"
+              },
+              {
+                "id": "503",
+                "name": "Cameras & Photography"
+              },
+              {
+                "id": "504",
+                "name": "Gaming"
+              },
+              {
+                "id": "505",
+                "name": "Accessories & Cables"
+              },
+              {
+                "id": "506",
+                "name": "Electrical & Power Solutions"
+              }
+            ],
+            "ancestors": []
+          },
+          {
+            "id": "506",
+            "level": 1,
+            "name": "Electrical & Power Solutions",
+            "full_name": "Electronics > Electrical & Power Solutions",
+            "parent_id": "500",
+            "attributes": [
+              {
+                "id": "10",
+                "name": "Voltage",
+                "handle": "voltage",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "11",
+                "name": "Power source",
+                "handle": "power-source",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "511",
+                "name": "Generators & Inverters"
+              },
+              {
+                "id": "512",
+                "name": "Solar & Energy Storage"
+              },
+              {
+                "id": "513",
+                "name": "Cables & Wiring"
+              },
+              {
+                "id": "514",
+                "name": "Lighting"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "500",
+                "name": "Electronics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobile Phones & Tablets",
+        "prefix": "mp",
+        "categories": [
+          {
+            "id": "600",
+            "level": 0,
+            "name": "Mobile Phones & Tablets",
+            "full_name": "Mobile Phones & Tablets",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "1",
+                "name": "Color",
+                "handle": "color",
+                "description": "",
+                "extended": false
+              },
+              {
+                "id": "9",
+                "name": "Condition",
+                "handle": "condition",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "601",
+                "name": "Smartphones"
+              },
+              {
+                "id": "602",
+                "name": "Feature Phones"
+              },
+              {
+                "id": "603",
+                "name": "Tablets"
+              },
+              {
+                "id": "604",
+                "name": "Mobile Accessories"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Home, Kitchen & Appliances",
+        "prefix": "hk",
+        "categories": [
+          {
+            "id": "700",
+            "level": 0,
+            "name": "Home, Kitchen & Appliances",
+            "full_name": "Home, Kitchen & Appliances",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "12",
+                "name": "Room type",
+                "handle": "room-type",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "701",
+                "name": "Kitchenware"
+              },
+              {
+                "id": "702",
+                "name": "Tableware & Dining"
+              },
+              {
+                "id": "703",
+                "name": "Storage & Organization"
+              },
+              {
+                "id": "704",
+                "name": "Cleaning & Laundry"
+              },
+              {
+                "id": "705",
+                "name": "Home Appliances"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Furniture & Home Décor",
+        "prefix": "fh",
+        "categories": [
+          {
+            "id": "800",
+            "level": 0,
+            "name": "Furniture & Home Décor",
+            "full_name": "Furniture & Home Décor",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "12",
+                "name": "Room type",
+                "handle": "room-type",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "801",
+                "name": "Living Room Furniture"
+              },
+              {
+                "id": "802",
+                "name": "Bedroom Furniture"
+              },
+              {
+                "id": "803",
+                "name": "Dining Room Furniture"
+              },
+              {
+                "id": "804",
+                "name": "Office Furniture"
+              },
+              {
+                "id": "805",
+                "name": "Rugs & Carpets"
+              },
+              {
+                "id": "806",
+                "name": "Curtains & Blinds"
+              },
+              {
+                "id": "807",
+                "name": "Bedding"
+              },
+              {
+                "id": "808",
+                "name": "Wall Décor & Art"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Baby, Kids & Maternity",
+        "prefix": "bk",
+        "categories": [
+          {
+            "id": "900",
+            "level": 0,
+            "name": "Baby, Kids & Maternity",
+            "full_name": "Baby, Kids & Maternity",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "13",
+                "name": "Age group",
+                "handle": "age-group",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "901",
+                "name": "Baby Clothing"
+              },
+              {
+                "id": "902",
+                "name": "Baby Gear"
+              },
+              {
+                "id": "903",
+                "name": "Nursery Furniture"
+              },
+              {
+                "id": "904",
+                "name": "Kids' Clothing"
+              },
+              {
+                "id": "905",
+                "name": "Maternity Wear"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Toys, Sports & Outdoors",
+        "prefix": "ts",
+        "categories": [
+          {
+            "id": "1000",
+            "level": 0,
+            "name": "Toys, Sports & Outdoors",
+            "full_name": "Toys, Sports & Outdoors",
+            "parent_id": null,
+            "attributes": [],
+            "children": [
+              {
+                "id": "1001",
+                "name": "Toys & Games"
+              },
+              {
+                "id": "1002",
+                "name": "Sports Equipment"
+              },
+              {
+                "id": "1003",
+                "name": "Outdoor & Camping"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Books, Stationery & Office",
+        "prefix": "bs",
+        "categories": [
+          {
+            "id": "1100",
+            "level": 0,
+            "name": "Books, Stationery & Office",
+            "full_name": "Books, Stationery & Office",
+            "parent_id": null,
+            "attributes": [],
+            "children": [
+              {
+                "id": "1101",
+                "name": "Books"
+              },
+              {
+                "id": "1102",
+                "name": "School Stationery"
+              },
+              {
+                "id": "1103",
+                "name": "Office Supplies"
+              },
+              {
+                "id": "1104",
+                "name": "Art & Craft Supplies"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Islamic & Religious Products",
+        "prefix": "ir",
+        "categories": [
+          {
+            "id": "1200",
+            "level": 0,
+            "name": "Islamic & Religious Products",
+            "full_name": "Islamic & Religious Products",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "14",
+                "name": "Religious use",
+                "handle": "religious-use",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "1201",
+                "name": "Prayer Mats"
+              },
+              {
+                "id": "1202",
+                "name": "Qurans & Islamic Books"
+              },
+              {
+                "id": "1203",
+                "name": "Tasbih & Counters"
+              },
+              {
+                "id": "1204",
+                "name": "Islamic Décor"
+              },
+              {
+                "id": "1205",
+                "name": "Prayer Clothing"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Auto & Motorbike",
+        "prefix": "am",
+        "categories": [
+          {
+            "id": "1300",
+            "level": 0,
+            "name": "Auto & Motorbike",
+            "full_name": "Auto & Motorbike",
+            "parent_id": null,
+            "attributes": [],
+            "children": [
+              {
+                "id": "1301",
+                "name": "Car Accessories"
+              },
+              {
+                "id": "1302",
+                "name": "Car Parts"
+              },
+              {
+                "id": "1303",
+                "name": "Oils & Fluids"
+              },
+              {
+                "id": "1304",
+                "name": "Tyres & Wheels"
+              },
+              {
+                "id": "1305",
+                "name": "Motorbike Accessories"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Pet Supplies",
+        "prefix": "ps",
+        "categories": [
+          {
+            "id": "1400",
+            "level": 0,
+            "name": "Pet Supplies",
+            "full_name": "Pet Supplies",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "15",
+                "name": "Pet type",
+                "handle": "pet-type",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "1401",
+                "name": "Food & Treats"
+              },
+              {
+                "id": "1402",
+                "name": "Beds & Housing"
+              },
+              {
+                "id": "1403",
+                "name": "Toys"
+              },
+              {
+                "id": "1404",
+                "name": "Grooming & Hygiene"
+              },
+              {
+                "id": "1405",
+                "name": "Collars & Leashes"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Syrian Handicrafts",
+        "prefix": "sh",
+        "categories": [
+          {
+            "id": "1500",
+            "level": 0,
+            "name": "Syrian Handicrafts",
+            "full_name": "Syrian Handicrafts",
+            "parent_id": null,
+            "attributes": [],
+            "children": [
+              {
+                "id": "1501",
+                "name": "Textiles & Embroidery"
+              },
+              {
+                "id": "1502",
+                "name": "Pottery & Ceramics"
+              },
+              {
+                "id": "1503",
+                "name": "Metalwork"
+              },
+              {
+                "id": "1504",
+                "name": "Woodwork & Inlay"
+              },
+              {
+                "id": "1505",
+                "name": "Soap & Natural Products"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      },
+      {
+        "name": "Second-Hand & Clearance",
+        "prefix": "sc",
+        "categories": [
+          {
+            "id": "1600",
+            "level": 0,
+            "name": "Second-Hand & Clearance",
+            "full_name": "Second-Hand & Clearance",
+            "parent_id": null,
+            "attributes": [
+              {
+                "id": "9",
+                "name": "Condition",
+                "handle": "condition",
+                "description": "",
+                "extended": false
+              }
+            ],
+            "children": [
+              {
+                "id": "1601",
+                "name": "Used Electronics"
+              },
+              {
+                "id": "1602",
+                "name": "Used Furniture"
+              },
+              {
+                "id": "1603",
+                "name": "Used Clothing & Footwear"
+              },
+              {
+                "id": "1604",
+                "name": "Outlet & Clearance"
+              }
+            ],
+            "ancestors": []
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "1",
+        "name": "Color",
+        "handle": "color",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Beige",
+            "handle": "color__beige"
+          },
+          {
+            "id": "2",
+            "name": "Black",
+            "handle": "color__black"
+          },
+          {
+            "id": "3",
+            "name": "Blue",
+            "handle": "color__blue"
+          },
+          {
+            "id": "4",
+            "name": "Brown",
+            "handle": "color__brown"
+          },
+          {
+            "id": "5",
+            "name": "Gold",
+            "handle": "color__gold"
+          },
+          {
+            "id": "6",
+            "name": "Gray",
+            "handle": "color__gray"
+          },
+          {
+            "id": "7",
+            "name": "Green",
+            "handle": "color__green"
+          },
+          {
+            "id": "8",
+            "name": "Multicolor",
+            "handle": "color__multicolor"
+          },
+          {
+            "id": "9",
+            "name": "Navy",
+            "handle": "color__navy"
+          },
+          {
+            "id": "10",
+            "name": "Orange",
+            "handle": "color__orange"
+          },
+          {
+            "id": "11",
+            "name": "Pink",
+            "handle": "color__pink"
+          },
+          {
+            "id": "12",
+            "name": "Purple",
+            "handle": "color__purple"
+          },
+          {
+            "id": "13",
+            "name": "Red",
+            "handle": "color__red"
+          },
+          {
+            "id": "14",
+            "name": "White",
+            "handle": "color__white"
+          },
+          {
+            "id": "15",
+            "name": "Yellow",
+            "handle": "color__yellow"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Pattern",
+        "handle": "pattern",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Abstract",
+            "handle": "pattern__abstract"
+          },
+          {
+            "id": "2",
+            "name": "Animal",
+            "handle": "pattern__animal"
+          },
+          {
+            "id": "3",
+            "name": "Art",
+            "handle": "pattern__art"
+          },
+          {
+            "id": "4",
+            "name": "Floral",
+            "handle": "pattern__floral"
+          },
+          {
+            "id": "5",
+            "name": "Geometric",
+            "handle": "pattern__geometric"
+          },
+          {
+            "id": "6",
+            "name": "Solid",
+            "handle": "pattern__solid"
+          },
+          {
+            "id": "7",
+            "name": "Striped",
+            "handle": "pattern__striped"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Target gender",
+        "handle": "target-gender",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Female",
+            "handle": "target-gender__female"
+          },
+          {
+            "id": "2",
+            "name": "Male",
+            "handle": "target-gender__male"
+          },
+          {
+            "id": "3",
+            "name": "Unisex",
+            "handle": "target-gender__unisex"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Fabric",
+        "handle": "fabric",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Cotton",
+            "handle": "fabric__cotton"
+          },
+          {
+            "id": "2",
+            "name": "Denim",
+            "handle": "fabric__denim"
+          },
+          {
+            "id": "3",
+            "name": "Polyester",
+            "handle": "fabric__polyester"
+          },
+          {
+            "id": "4",
+            "name": "Wool",
+            "handle": "fabric__wool"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Size",
+        "handle": "size",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "XS",
+            "handle": "size__xs"
+          },
+          {
+            "id": "2",
+            "name": "S",
+            "handle": "size__s"
+          },
+          {
+            "id": "3",
+            "name": "M",
+            "handle": "size__m"
+          },
+          {
+            "id": "4",
+            "name": "L",
+            "handle": "size__l"
+          },
+          {
+            "id": "5",
+            "name": "XL",
+            "handle": "size__xl"
+          },
+          {
+            "id": "6",
+            "name": "XXL",
+            "handle": "size__xxl"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Activewear clothing features",
+        "handle": "activewear-clothing-features",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Four-way stretch",
+            "handle": "activewear-clothing-features__four-way-stretch"
+          },
+          {
+            "id": "2",
+            "name": "Breathable",
+            "handle": "activewear-clothing-features__breathable"
+          },
+          {
+            "id": "3",
+            "name": "Moisture-wicking",
+            "handle": "activewear-clothing-features__moisture-wicking"
+          },
+          {
+            "id": "4",
+            "name": "Quick-dry",
+            "handle": "activewear-clothing-features__quick-dry"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Activity",
+        "handle": "activity",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Running",
+            "handle": "activity__running"
+          },
+          {
+            "id": "2",
+            "name": "Yoga",
+            "handle": "activity__yoga"
+          },
+          {
+            "id": "3",
+            "name": "Gym",
+            "handle": "activity__gym"
+          },
+          {
+            "id": "4",
+            "name": "Swimming",
+            "handle": "activity__swimming"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Shoe size",
+        "handle": "shoe-size",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "EU 35",
+            "handle": "shoe-size__eu-35"
+          },
+          {
+            "id": "2",
+            "name": "EU 36",
+            "handle": "shoe-size__eu-36"
+          },
+          {
+            "id": "3",
+            "name": "EU 37",
+            "handle": "shoe-size__eu-37"
+          },
+          {
+            "id": "4",
+            "name": "EU 38",
+            "handle": "shoe-size__eu-38"
+          },
+          {
+            "id": "5",
+            "name": "EU 39",
+            "handle": "shoe-size__eu-39"
+          },
+          {
+            "id": "6",
+            "name": "EU 40",
+            "handle": "shoe-size__eu-40"
+          },
+          {
+            "id": "7",
+            "name": "EU 41",
+            "handle": "shoe-size__eu-41"
+          },
+          {
+            "id": "8",
+            "name": "EU 42",
+            "handle": "shoe-size__eu-42"
+          },
+          {
+            "id": "9",
+            "name": "EU 43",
+            "handle": "shoe-size__eu-43"
+          },
+          {
+            "id": "10",
+            "name": "EU 44",
+            "handle": "shoe-size__eu-44"
+          },
+          {
+            "id": "11",
+            "name": "EU 45",
+            "handle": "shoe-size__eu-45"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Condition",
+        "handle": "condition",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "New",
+            "handle": "condition__new"
+          },
+          {
+            "id": "2",
+            "name": "Like new",
+            "handle": "condition__like-new"
+          },
+          {
+            "id": "3",
+            "name": "Very good",
+            "handle": "condition__very-good"
+          },
+          {
+            "id": "4",
+            "name": "Good",
+            "handle": "condition__good"
+          },
+          {
+            "id": "5",
+            "name": "Acceptable",
+            "handle": "condition__acceptable"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Voltage",
+        "handle": "voltage",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "110V",
+            "handle": "voltage__110v"
+          },
+          {
+            "id": "2",
+            "name": "220V",
+            "handle": "voltage__220v"
+          },
+          {
+            "id": "3",
+            "name": "110–220V",
+            "handle": "voltage__110-220v"
+          },
+          {
+            "id": "4",
+            "name": "12V DC",
+            "handle": "voltage__12v-dc"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Power source",
+        "handle": "power-source",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Electric",
+            "handle": "power-source__electric"
+          },
+          {
+            "id": "2",
+            "name": "Gas",
+            "handle": "power-source__gas"
+          },
+          {
+            "id": "3",
+            "name": "Battery",
+            "handle": "power-source__battery"
+          },
+          {
+            "id": "4",
+            "name": "Solar",
+            "handle": "power-source__solar"
+          },
+          {
+            "id": "5",
+            "name": "Manual",
+            "handle": "power-source__manual"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Room type",
+        "handle": "room-type",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Living room",
+            "handle": "room-type__living-room"
+          },
+          {
+            "id": "2",
+            "name": "Bedroom",
+            "handle": "room-type__bedroom"
+          },
+          {
+            "id": "3",
+            "name": "Kitchen",
+            "handle": "room-type__kitchen"
+          },
+          {
+            "id": "4",
+            "name": "Bathroom",
+            "handle": "room-type__bathroom"
+          },
+          {
+            "id": "5",
+            "name": "Office",
+            "handle": "room-type__office"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Age group",
+        "handle": "age-group",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Baby",
+            "handle": "age-group__baby"
+          },
+          {
+            "id": "2",
+            "name": "Toddler",
+            "handle": "age-group__toddler"
+          },
+          {
+            "id": "3",
+            "name": "Child",
+            "handle": "age-group__child"
+          },
+          {
+            "id": "4",
+            "name": "Teen",
+            "handle": "age-group__teen"
+          },
+          {
+            "id": "5",
+            "name": "Adult",
+            "handle": "age-group__adult"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Religious use",
+        "handle": "religious-use",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Prayer",
+            "handle": "religious-use__prayer"
+          },
+          {
+            "id": "2",
+            "name": "Quran reading",
+            "handle": "religious-use__quran-reading"
+          },
+          {
+            "id": "3",
+            "name": "Ramadan",
+            "handle": "religious-use__ramadan"
+          },
+          {
+            "id": "4",
+            "name": "Hajj & Umrah",
+            "handle": "religious-use__hajj-umrah"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Pet type",
+        "handle": "pet-type",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Dog",
+            "handle": "pet-type__dog"
+          },
+          {
+            "id": "2",
+            "name": "Cat",
+            "handle": "pet-type__cat"
+          },
+          {
+            "id": "3",
+            "name": "Bird",
+            "handle": "pet-type__bird"
+          },
+          {
+            "id": "4",
+            "name": "Fish",
+            "handle": "pet-type__fish"
+          },
+          {
+            "id": "5",
+            "name": "Small animal",
+            "handle": "pet-type__small-animal"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "name": "Book language",
+        "handle": "book-language",
+        "description": "",
+        "extended_attributes": [],
+        "values": [
+          {
+            "id": "1",
+            "name": "Arabic",
+            "handle": "book-language__arabic"
+          },
+          {
+            "id": "2",
+            "name": "English",
+            "handle": "book-language__english"
+          },
+          {
+            "id": "3",
+            "name": "French",
+            "handle": "book-language__french"
+          },
+          {
+            "id": "4",
+            "name": "Bilingual",
+            "handle": "book-language__bilingual"
+          }
+        ]
+      }
+    ]
+  }
