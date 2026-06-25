@@ -1,0 +1,31 @@
+services:
+  server:
+    build: ./server
+    container_name: sham_dev_server
+    ports:
+      - "3005:3005"
+    env_file:
+      - .env
+      - ./server/.env
+    restart: always
+    networks:
+      - default
+      - supabase_net
+
+  ui:
+    build: ./ui
+    container_name: sham_dev_ui
+    ports:
+      - "5174:80"
+
+  admin:
+    build: ./admin
+    container_name: sham_dev_admin
+    ports:
+      - "8081:5173"
+    env_file:
+      - ./admin/.env
+networks:
+  supabase_net:
+    external: true
+    name: supabase_dev_default
