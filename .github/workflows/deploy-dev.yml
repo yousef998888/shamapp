@@ -1,0 +1,18 @@
+name: Deploy DEV
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Deploy DEV
+        run: |
+          cd /srv/sham-shop-dev
+          git fetch origin dev
+          git reset --hard origin/dev
+          docker-compose -p sham_dev up -d --build
